@@ -3,7 +3,7 @@ import axios from 'axios';
 import ForceGraph2D from 'react-force-graph-2d';
 import './App.css';
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000';
 const SIDEBAR_WIDTH = 420;
 
 function App() {
