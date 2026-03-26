@@ -1,0 +1,17 @@
+import sqlite3
+
+conn = sqlite3.connect("supply_chain.db")
+cur = conn.cursor()
+cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
+tables = [r[0] for r in cur.fetchall()]
+print("Tables found:", tables)
+for t in tables:
+    try:
+        cur.execute(f"SELECT COUNT(*) FROM [{t}]")
+        print(f"  {t}: {cur.fetchone()[0]} rows")
+        cur.execute(f"PRAGMA table_info([{t}])")
+        cols = [r[1] for r in cur.fetchall()]
+        print(f"    Columns: {cols[:6]}")
+    except Exception as e:
+        print(f"  {t}: ERROR - {e}")
+conn.close()

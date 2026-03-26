@@ -1,0 +1,31 @@
+﻿=== business_partner_addresses country values ===
+['IN']
+
+=== Sample rows ===
+{'businessPartner': '310000108', 'addressId': '4605', 'validityStartDate': '2024-04-16T00:00:00.000Z', 'validityEndDate': '9999-12-31T23:59:59.000Z', 'addressUuid': 'af79c9a3-05bf-1ede-bef9-0812e7757c0e', 'addressTimeZone': 'INDIA', 'cityName': 'Lake Christopher', 'country': 'IN', 'poBox': '', 'poBoxDeviatingCityName': '', 'poBoxDeviatingCountry': '', 'poBoxDeviatingRegion': '', 'poBoxIsWithoutNumber': 0, 'poBoxLobbyName': '', 'poBoxPostalCode': '', 'postalCode': '18589', 'region': 'TS', 'streetName': '0171 Rebecca Glen', 'taxJurisdiction': '', 'transportZone': ''}
+{'businessPartner': '310000109', 'addressId': '4607', 'validityStartDate': '2024-04-16T00:00:00.000Z', 'validityEndDate': '9999-12-31T23:59:59.000Z', 'addressUuid': 'af79c9a3-05bf-1ede-bef9-0812e7773c0e', 'addressTimeZone': 'INDIA', 'cityName': '', 'country': 'IN', 'poBox': '', 'poBoxDeviatingCityName': '', 'poBoxDeviatingCountry': '', 'poBoxDeviatingRegion': '', 'poBoxIsWithoutNumber': 0, 'poBoxLobbyName': '', 'poBoxPostalCode': '', 'postalCode': '67176', 'region': 'RJ', 'streetName': '174 Rebekah Mission Apt. 044', 'taxJurisdiction': '', 'transportZone': ''}
+{'businessPartner': '320000082', 'addressId': '9526', 'validityStartDate': '2024-11-20T00:00:00.000Z', 'validityEndDate': '9999-12-31T23:59:59.000Z', 'addressUuid': 'f5c943a9-5d10-1eef-a9e2-b69c310f3c5c', 'addressTimeZone': 'INDIA', 'cityName': '', 'country': 'IN', 'poBox': '', 'poBoxDeviatingCityName': '', 'poBoxDeviatingCountry': '', 'poBoxDeviatingRegion': '', 'poBoxIsWithoutNumber': 0, 'poBoxLobbyName': '', 'poBoxPostalCode': '', 'postalCode': '', 'region': 'RJ', 'streetName': '', 'taxJurisdiction': '', 'transportZone': ''}
+
+=== plants sample country/region ===
+('1001', 'Lake Christopher Plant')
+('1002', 'Lake Erica Plant')
+('1003', 'North Timothybury Plant')
+('1005', 'Port Kevin Plant')
+('1006', 'Lake Andreafort Plant')
+
+=== sales_order_headers delivery status values ===
+['C', 'A']
+
+=== billing_document_headers sample ===
+('90504248', '320000083', '216.1', '2025-04-02T00:00:00.000Z')
+('90628265', '320000082', '245.9', '2025-04-30T00:00:00.000Z')
+('90628266', '320000082', '287.9', '2025-04-30T00:00:00.000Z')
+('90504274', '320000083', '253.39', '2025-04-02T00:00:00.000Z')
+('90504242', '320000083', '151.69', '2025-04-02T00:00:00.000Z')
+
+=== outbound_delivery_items referenceSdDocument sample ===
+('80738076', '740556')
+('80738076', '740556')
+('80738076', '740556')
+('80738076', '740556')
+('80738076', '740556')
