@@ -1,0 +1,2 @@
+# This file is for Render/Vercel to find the dependencies in the backend folder
+-r backend/requirements.txt
